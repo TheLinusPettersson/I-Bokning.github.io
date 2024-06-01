@@ -1,0 +1,30 @@
+.menu {
+  background-color: rgba(255, 255, 255, 0.9);
+  height: 500px;
+  border-radius: 12px 0 0 12px;
+  position: relative;
+  left: 10px;
+  z-index: -1;
+}
+
+.menu li {
+  position: relative;
+  top: 25%;
+  list-style-type: none;
+  padding-left: 10px;
+  min-width: 200px;
+  font-size: 16px;
+  color: black;
+  background-color: transparent;
+  border: none;
+  padding: 10px;
+  text-align: left;
+}
+
+.menu li:not(.selected):hover {
+  background-color: lightgray;
+}
+
+.btn-select {
+  background-color: white;
+}
