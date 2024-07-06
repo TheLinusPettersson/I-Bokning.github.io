@@ -1,1 +1,0 @@
-import{j as s}from"./index-c8eaf61a.js";const x=({src:e,alt:m="Image",width:r="200px",height:c="200px",objectFit:o="contain",zoomOnHover:t=!1,info:a=""})=>s.jsxs("div",{className:`card ${t?"zoom":""}`,style:{width:r,height:c},children:[s.jsx("img",{src:e,alt:m,className:"card-image",style:{objectFit:o}}),a&&s.jsx("div",{className:"info-box",children:a})]});export{x as I};
